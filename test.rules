@@ -1,0 +1,1 @@
+alert any any -> any 1080 (content:"hostip";nocase;offset:9;depth:20;msg:"TEST ALERT";flags:U,1;sid:1)
